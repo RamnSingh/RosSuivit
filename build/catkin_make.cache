@@ -1,0 +1,2 @@
+suivit
+-DCATKIN_DEVEL_PREFIX=/home/dodo/ros/devel -DCMAKE_INSTALL_PREFIX=/home/dodo/ros/install -G Unix Makefiles

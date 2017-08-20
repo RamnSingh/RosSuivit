@@ -1,0 +1,5 @@
+<launch>
+	<arg name="agents" doc="Number of agents. It should be a number which is greater than 1 and lesser than 11." />
+	<param name="numberOfAgents" value="$(arg agents)" />
+	<node pkg="suivit" type="main.py" name="main" output="screen"/>
+</launch>
